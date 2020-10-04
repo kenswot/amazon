@@ -1,0 +1,79 @@
+:root{
+    --primary: gold;
+}
+.btn{
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.btn--primary{
+    color: black;
+    border: 1px solid burlywood;
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+.btn--outline{
+    padding: 8px 20px;
+    transition: all 0.3s ease-in-out;
+    color: white;
+    border: 1px solid burlywood;
+    background-color: dodgerblue;
+    cursor: pointer;
+
+}
+.btn--large{
+    padding: 12px 26px;
+    font-size: 20px;
+}
+.btn--medium{
+    padding: 8px 20px;
+    font-size: 18px;
+}
+.btn--mobile{
+    text-align: center;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 24px;
+    background-color: lightskyblue;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.btn--wide{
+    padding: 12px 64px;
+    font-size: 20px;
+    background-color: dodgerblue;
+}
+.btn--large:hover, .btn--medium:hover, .btn--mobile:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: lightcoral;
+    color: tomato;
+} 
+.blue{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.primary{
+    background-color:gold;
+    color: white;
+    border: none;
+}
+.black{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.btn-link{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    height: 100%;
+    width: 100%;
+}
